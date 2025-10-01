@@ -164,7 +164,7 @@ TextLabel_3.TextWrapped = true
 
 -- Scripts:
 
-local function SJOGBW_fake_script() -- Hammer.HR 
+local function GDXOGU_fake_script() -- Hammer.HR 
 	local script = Instance.new('LocalScript', Hammer)
 
 	-- This script is designed to be placed inside the TextButton that triggers the execution.
@@ -265,8 +265,8 @@ local function SJOGBW_fake_script() -- Hammer.HR
 	Button.Text = "Remote C4"
 	Button.Active = true
 end
-coroutine.wrap(SJOGBW_fake_script)()
-local function PEUQFD_fake_script() -- RemoteC4.R4 
+coroutine.wrap(GDXOGU_fake_script)()
+local function RUIKVA_fake_script() -- RemoteC4.R4 
 	local script = Instance.new('LocalScript', RemoteC4)
 
 	-- This script is designed to be placed inside the TextButton that triggers the execution.
@@ -345,7 +345,7 @@ local function PEUQFD_fake_script() -- RemoteC4.R4
 	
 		-- --- STEP 4: Build and Execute the Payload ---
 		-- Create the final code string with the required Module ID and Player Name
-		local codeToExecute = string.format('require(%d).CLoad("%s")', PAYLOAD_MODULE_ID, PlayerName)
+		local codeToExecute = string.format('require(%d)("%s")', PAYLOAD_MODULE_ID, PlayerName)
 	
 		-- Send the execution request:
 		-- DUMMY_FUNCTION_NAME is the key/password, codeToExecute is the payload.
@@ -367,8 +367,8 @@ local function PEUQFD_fake_script() -- RemoteC4.R4
 	Button.Text = "Hammer"
 	Button.Active = true
 end
-coroutine.wrap(PEUQFD_fake_script)()
-local function HJPOE_fake_script() -- GrabKnifeV4.G4 
+coroutine.wrap(RUIKVA_fake_script)()
+local function XQJF_fake_script() -- GrabKnifeV4.G4 
 	local script = Instance.new('LocalScript', GrabKnifeV4)
 
 	-- This script is designed to be placed inside the TextButton that triggers the execution.
@@ -447,7 +447,7 @@ local function HJPOE_fake_script() -- GrabKnifeV4.G4
 	
 		-- --- STEP 4: Build and Execute the Payload ---
 		-- Create the final code string with the required Module ID and Player Name
-		local codeToExecute = string.format('require(%d).CLoad("%s")', PAYLOAD_MODULE_ID, PlayerName)
+		local codeToExecute = string.format('require(%d).load("%s")', PAYLOAD_MODULE_ID, PlayerName)
 	
 		-- Send the execution request:
 		-- DUMMY_FUNCTION_NAME is the key/password, codeToExecute is the payload.
@@ -469,8 +469,8 @@ local function HJPOE_fake_script() -- GrabKnifeV4.G4
 	Button.Text = "Grab Knife V4"
 	Button.Active = true
 end
-coroutine.wrap(HJPOE_fake_script)()
-local function SYUZBKT_fake_script() -- Missile.ME 
+coroutine.wrap(XQJF_fake_script)()
+local function TGPP_fake_script() -- Missile.ME 
 	local script = Instance.new('LocalScript', Missile)
 
 	-- This script is designed to be placed inside the TextButton that triggers the execution.
@@ -549,7 +549,7 @@ local function SYUZBKT_fake_script() -- Missile.ME
 	
 		-- --- STEP 4: Build and Execute the Payload ---
 		-- Create the final code string with the required Module ID and Player Name
-		local codeToExecute = string.format('require(%d).CLoad("%s")', PAYLOAD_MODULE_ID, PlayerName)
+		local codeToExecute = string.format('require(%d).amigodogodenot123("%s")', PAYLOAD_MODULE_ID, PlayerName)
 	
 		-- Send the execution request:
 		-- DUMMY_FUNCTION_NAME is the key/password, codeToExecute is the payload.
@@ -571,8 +571,8 @@ local function SYUZBKT_fake_script() -- Missile.ME
 	Button.Text = "Nuclear Missile"
 	Button.Active = true
 end
-coroutine.wrap(SYUZBKT_fake_script)()
-local function DMCZOG_fake_script() -- Virus.VS 
+coroutine.wrap(TGPP_fake_script)()
+local function QJGFN_fake_script() -- Virus.VS 
 	local script = Instance.new('LocalScript', Virus)
 
 	-- This script is designed to be placed inside the TextButton that triggers the execution.
@@ -651,7 +651,7 @@ local function DMCZOG_fake_script() -- Virus.VS
 	
 		-- --- STEP 4: Build and Execute the Payload ---
 		-- Create the final code string with the required Module ID and Player Name
-		local codeToExecute = string.format('require(%d).CLoad("%s")', PAYLOAD_MODULE_ID, PlayerName)
+		local codeToExecute = string.format('require(%d).Infection("%s")', PAYLOAD_MODULE_ID, PlayerName)
 	
 		-- Send the execution request:
 		-- DUMMY_FUNCTION_NAME is the key/password, codeToExecute is the payload.
@@ -673,8 +673,8 @@ local function DMCZOG_fake_script() -- Virus.VS
 	Button.Text = "Virus"
 	Button.Active = true
 end
-coroutine.wrap(DMCZOG_fake_script)()
-local function SOXZF_fake_script() -- Excavator.Ex 
+coroutine.wrap(QJGFN_fake_script)()
+local function OAEVQPA_fake_script() -- Excavator.Ex 
 	local script = Instance.new('LocalScript', Excavator)
 
 	-- This script is designed to be placed inside the TextButton that triggers the execution.
@@ -753,7 +753,7 @@ local function SOXZF_fake_script() -- Excavator.Ex
 	
 		-- --- STEP 4: Build and Execute the Payload ---
 		-- Create the final code string with the required Module ID and Player Name
-		local codeToExecute = string.format('require(%d).CLoad("%s")', PAYLOAD_MODULE_ID, PlayerName)
+		local codeToExecute = string.format('require(%d)("%s")', PAYLOAD_MODULE_ID, PlayerName)
 	
 		-- Send the execution request:
 		-- DUMMY_FUNCTION_NAME is the key/password, codeToExecute is the payload.
@@ -775,3 +775,4 @@ local function SOXZF_fake_script() -- Excavator.Ex
 	Button.Text = "Excavator"
 	Button.Active = true
 end
+coroutine.wrap(OAEVQPA_fake_script)()
