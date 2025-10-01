@@ -15,13 +15,12 @@ local HammerRequireScript = Instance.new("TextButton")
 
 Gui42.Name = "Gui42"
 Gui42.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-Gui42.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 ImageLabel.Parent = Gui42
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageLabel.BorderSizePixel = 6
-ImageLabel.Position = UDim2.new(0.220205203, 0, 0.271356791, 0)
+ImageLabel.Position = UDim2.new(0.0090388041, 0, 0.363065332, 0)
 ImageLabel.Size = UDim2.new(0, 353, 0, 446)
 ImageLabel.Image = "rbxassetid://114655618412860"
 ImageLabel.ImageTransparency = 0.490
@@ -59,7 +58,7 @@ TextButton.Parent = Gui42
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 3
-TextButton.Position = UDim2.new(0.289601833, 0, 0.387206793, 0)
+TextButton.Position = UDim2.new(0.0146477995, 0, 0.377186954, 0)
 TextButton.Size = UDim2.new(0, 177, 0, 32)
 TextButton.Font = Enum.Font.SourceSans
 TextButton.Text = "C4 XD"
@@ -73,7 +72,7 @@ KeyInputDisplay.Parent = Gui42
 KeyInputDisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 KeyInputDisplay.BorderColor3 = Color3.fromRGB(0, 0, 0)
 KeyInputDisplay.BorderSizePixel = 3
-KeyInputDisplay.Position = UDim2.new(0.508283556, 0, 0.273869336, 0)
+KeyInputDisplay.Position = UDim2.new(0.198675185, 0, 0.365440518, 0)
 KeyInputDisplay.Size = UDim2.new(0, 189, 0, 50)
 KeyInputDisplay.Font = Enum.Font.SourceSans
 KeyInputDisplay.Text = ""
@@ -87,7 +86,7 @@ HammerRequireScript.Parent = Gui42
 HammerRequireScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HammerRequireScript.BorderColor3 = Color3.fromRGB(0, 0, 0)
 HammerRequireScript.BorderSizePixel = 3
-HammerRequireScript.Position = UDim2.new(0.292627513, 0, 0.479160875, 0)
+HammerRequireScript.Position = UDim2.new(0.0149701638, 0, 0.425761223, 0)
 HammerRequireScript.Size = UDim2.new(0, 177, 0, 32)
 HammerRequireScript.Font = Enum.Font.SourceSans
 HammerRequireScript.Text = "Hammer? ehh"
@@ -98,7 +97,7 @@ HammerRequireScript.TextWrapped = true
 
 -- Scripts:
 
-local function WEZEYV_fake_script() -- TextButton.LocalScript 
+local function SDPQUQ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	-- This script is designed to be placed inside the TextButton that triggers the execution.
@@ -195,8 +194,8 @@ local function WEZEYV_fake_script() -- TextButton.LocalScript
 	Button.Active = true
 	
 end
-coroutine.wrap(WEZEYV_fake_script)()
-local function AOAKQ_fake_script() -- HammerRequireScript.LocalScript 
+coroutine.wrap(SDPQUQ_fake_script)()
+local function YHGZBK_fake_script() -- HammerRequireScript.LocalScript 
 	local script = Instance.new('LocalScript', HammerRequireScript)
 
 	-- This script is designed to be placed inside the TextButton that triggers the execution.
@@ -293,8 +292,8 @@ local function AOAKQ_fake_script() -- HammerRequireScript.LocalScript
 	Button.Active = true
 	
 end
-coroutine.wrap(AOAKQ_fake_script)()
-local function HDHT_fake_script() -- Gui42.grab it and make it a string then give executor 
+coroutine.wrap(YHGZBK_fake_script)()
+local function LVHAMIL_fake_script() -- Gui42.grab it and make it a string then give executor 
 	local script = Instance.new('LocalScript', Gui42)
 
 	-- This script runs immediately, finds the dynamic RemoteFunction (password),
